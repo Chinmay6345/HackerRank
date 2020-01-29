@@ -15,6 +15,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Strings", "Strings", "{0021
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Super reduced string", "Super reduced string\Super reduced string.csproj", "{2C7D5CAF-92EA-4478-A955-E7BDE4007670}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hacker rank in a String", "Hacker rank in a String\Hacker rank in a String.csproj", "{C6799E22-62A5-4A41-8C4C-D261269FF3B4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -41,12 +43,17 @@ Global
 		{2C7D5CAF-92EA-4478-A955-E7BDE4007670}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2C7D5CAF-92EA-4478-A955-E7BDE4007670}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2C7D5CAF-92EA-4478-A955-E7BDE4007670}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C6799E22-62A5-4A41-8C4C-D261269FF3B4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C6799E22-62A5-4A41-8C4C-D261269FF3B4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C6799E22-62A5-4A41-8C4C-D261269FF3B4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C6799E22-62A5-4A41-8C4C-D261269FF3B4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{2C7D5CAF-92EA-4478-A955-E7BDE4007670} = {00213F69-B67B-45C4-ABA4-DDA42DD4377F}
+		{C6799E22-62A5-4A41-8C4C-D261269FF3B4} = {00213F69-B67B-45C4-ABA4-DDA42DD4377F}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {3A4C5433-A351-4CE4-A077-FB10625BC114}
