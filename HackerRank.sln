@@ -17,6 +17,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Super reduced string", "Sup
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hacker rank in a String", "Hacker rank in a String\Hacker rank in a String.csproj", "{C6799E22-62A5-4A41-8C4C-D261269FF3B4}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ice cream parlor", "Ice cream parlor\Ice cream parlor.csproj", "{6E4F8FBF-AC54-4638-8B3B-D850A25C88C7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -47,6 +49,10 @@ Global
 		{C6799E22-62A5-4A41-8C4C-D261269FF3B4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C6799E22-62A5-4A41-8C4C-D261269FF3B4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C6799E22-62A5-4A41-8C4C-D261269FF3B4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6E4F8FBF-AC54-4638-8B3B-D850A25C88C7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6E4F8FBF-AC54-4638-8B3B-D850A25C88C7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6E4F8FBF-AC54-4638-8B3B-D850A25C88C7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6E4F8FBF-AC54-4638-8B3B-D850A25C88C7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
