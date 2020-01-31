@@ -19,6 +19,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hacker rank in a String", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ice cream parlor", "Ice cream parlor\Ice cream parlor.csproj", "{6E4F8FBF-AC54-4638-8B3B-D850A25C88C7}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Between two sets", "Between two sets\Between two sets.csproj", "{C440761A-0A5B-420C-BF45-7127E8965275}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Library fine", "Library fine\Library fine.csproj", "{A29C1936-FEAC-49EA-98EE-9431FBF6A520}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -53,6 +57,14 @@ Global
 		{6E4F8FBF-AC54-4638-8B3B-D850A25C88C7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6E4F8FBF-AC54-4638-8B3B-D850A25C88C7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6E4F8FBF-AC54-4638-8B3B-D850A25C88C7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C440761A-0A5B-420C-BF45-7127E8965275}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C440761A-0A5B-420C-BF45-7127E8965275}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C440761A-0A5B-420C-BF45-7127E8965275}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C440761A-0A5B-420C-BF45-7127E8965275}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A29C1936-FEAC-49EA-98EE-9431FBF6A520}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A29C1936-FEAC-49EA-98EE-9431FBF6A520}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A29C1936-FEAC-49EA-98EE-9431FBF6A520}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A29C1936-FEAC-49EA-98EE-9431FBF6A520}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
