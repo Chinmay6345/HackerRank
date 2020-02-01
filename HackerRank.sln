@@ -25,6 +25,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Library fine", "Library fin
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cut the sticks", "Cut the sticks\Cut the sticks.csproj", "{B4E7C2E8-5E91-488C-B455-6B593AA7B7DA}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Left rotation", "Left rotation\Left rotation.csproj", "{87A46CD1-081A-488C-A694-4C1AE41ADCF3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -71,6 +73,10 @@ Global
 		{B4E7C2E8-5E91-488C-B455-6B593AA7B7DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B4E7C2E8-5E91-488C-B455-6B593AA7B7DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B4E7C2E8-5E91-488C-B455-6B593AA7B7DA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{87A46CD1-081A-488C-A694-4C1AE41ADCF3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{87A46CD1-081A-488C-A694-4C1AE41ADCF3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{87A46CD1-081A-488C-A694-4C1AE41ADCF3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{87A46CD1-081A-488C-A694-4C1AE41ADCF3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
