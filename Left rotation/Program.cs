@@ -1,8 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+
+//https://www.hackerrank.com/challenges/array-left-rotation/problem
 
 namespace Left_rotation
 {
