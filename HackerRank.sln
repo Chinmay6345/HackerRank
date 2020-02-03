@@ -27,6 +27,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cut the sticks", "Cut the s
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Left rotation", "Left rotation\Left rotation.csproj", "{87A46CD1-081A-488C-A694-4C1AE41ADCF3}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Migratory Birds", "Migratory Birds\Migratory Birds.csproj", "{3609ADD8-5F35-484B-90D6-743CC2329C16}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -77,6 +79,10 @@ Global
 		{87A46CD1-081A-488C-A694-4C1AE41ADCF3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{87A46CD1-081A-488C-A694-4C1AE41ADCF3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{87A46CD1-081A-488C-A694-4C1AE41ADCF3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3609ADD8-5F35-484B-90D6-743CC2329C16}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3609ADD8-5F35-484B-90D6-743CC2329C16}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3609ADD8-5F35-484B-90D6-743CC2329C16}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3609ADD8-5F35-484B-90D6-743CC2329C16}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
