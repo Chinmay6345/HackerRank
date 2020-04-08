@@ -1,9 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
+//https://www.hackerrank.com/challenges/diagonal-difference/problem
 namespace Diagonal_Difference
 {
     public static class AppHelper
