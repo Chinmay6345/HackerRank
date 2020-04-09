@@ -87,6 +87,20 @@ public class Program
             Console.WriteLine(ex.InnerException.ToString());
         }
     }
+    public static void UsingLoop(String str)
+    {
+        char[] array = str.ToCharArray();
+
+        int count = 0;
+        for (int i = 1, j = 0; i < str.Length; i++, j++)
+        {
+
+            if (array[i] == array[j])
+            {
+                count++;
+            }
+        }
+    }
 }
 namespace Alternating_Characters
 {
@@ -94,19 +108,7 @@ namespace Alternating_Characters
     {
         public static void Main(string[] args)
         {
-            String input = "beabeefeab";
-            char[] array = input.ToCharArray();
-
-            int count = 0;
-            for (int i = 1, j = 0; i < input.Length; i++, j++)
-            {
-
-                if (array[i] == array[j])
-                {
-                    count++;
-                }
-            }
-            Console.WriteLine(count);
+            
             Console.ReadLine();
         }
     }
