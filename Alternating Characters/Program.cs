@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Text;
 
 //https://www.hackerrank.com/challenges/alternating-characters/problem?h_r=profile
 
@@ -44,6 +45,49 @@ Sample Output
 0
 4
 */
+
+public static class AppHelper
+{
+    public static void AlternatingCharacters(String str)
+    {
+        try
+        {
+            StringBuilder builder = new StringBuilder(str);
+            Int32 count = 0;
+            for (Int32 i = 0; i < str.Length - 1; i++)
+            {
+                if (str[i] == str[i + 1])
+                    count++;
+
+            }
+            Console.WriteLine(count);
+        }
+        catch (Exception)
+        {
+            throw;
+        }
+    }
+}
+public class Program
+{
+    public static void Main(String[] args)
+    {
+        try
+        {
+            Int32 NoOfTestCases = Convert.ToInt32(Console.ReadLine());
+            while (NoOfTestCases != 0)
+            {
+                String str = Console.ReadLine();
+                AppHelper.AlternatingCharacters(str);
+                NoOfTestCases = NoOfTestCases - 1;
+            }
+        }
+        catch (Exception ex)
+        {
+            Console.WriteLine(ex.InnerException.ToString());
+        }
+    }
+}
 namespace Alternating_Characters
 {
     public class Program
@@ -57,12 +101,12 @@ namespace Alternating_Characters
             for (int i = 1, j = 0; i < input.Length; i++, j++)
             {
 
-                if(array[i]==array[j])
+                if (array[i] == array[j])
                 {
                     count++;
                 }
             }
-                Console.WriteLine(count);
+            Console.WriteLine(count);
             Console.ReadLine();
         }
     }
