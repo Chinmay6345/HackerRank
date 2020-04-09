@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
+//https://www.hackerrank.com/challenges/alternating-characters/problem?h_r=profile
 namespace Alternating_Characters
 {
     public class Program
