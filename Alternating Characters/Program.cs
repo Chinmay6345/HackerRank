@@ -2,7 +2,6 @@
 using System.Text;
 
 //https://www.hackerrank.com/challenges/alternating-characters/problem?h_r=profile
-
 /*
  You are given a string containing characters  and  only. Your task is to change it into a string such that there are no matching adjacent characters. To do this, you are allowed to delete zero or more characters in the string.
 
@@ -45,63 +44,49 @@ Sample Output
 0
 4
 */
-
-public static class AppHelper
-{
-    public static void AlternatingCharacters(String str)
-    {
-        try
-        {
-            StringBuilder builder = new StringBuilder(str);
-            Int32 count = 0;
-            for (Int32 i = 0; i < str.Length - 1; i++)
-            {
-                if (str[i] == str[i + 1])
-                    count++;
-
-            }
-            Console.WriteLine(count);
-        }
-        catch (Exception)
-        {
-            throw;
-        }
-    }
-}
-public class Program
-{
-    public static void Main(String[] args)
-    {
-        try
-        {
-            Int32 NoOfTestCases = Convert.ToInt32(Console.ReadLine());
-            while (NoOfTestCases != 0)
-            {
-                String str = Console.ReadLine();
-                AppHelper.AlternatingCharacters(str);
-                NoOfTestCases = NoOfTestCases - 1;
-            }
-        }
-        catch (Exception ex)
-        {
-            Console.WriteLine(ex.InnerException.ToString());
-        }
-    }
-    public static void UsingLoop(String str)
-    {
-        Char[] array = str.ToCharArray();
-        Int32 count = 0;
-        for (Int32 i = 1, j = 0; i < str.Length; i++, j++)
-        {
-            if (array[i] == array[j])
-            {
-                count++;
-            }
-        }
-    }
-}
 namespace Alternating_Characters
 {
+    public static class AppHelper
+    {
+        public static void AlternatingCharacters(String str)
+        {
+            try
+            {
+                StringBuilder builder = new StringBuilder(str);
+                Int32 count = 0;
+                for (Int32 i = 0; i < str.Length - 1; i++)
+                {
+                    if (str[i] == str[i + 1])
+                        count++;
+
+                }
+                Console.WriteLine(count);
+            }
+            catch (Exception)
+            {
+                throw;
+            }
+        }
+        public static void UsingLoop(String str)
+        {
+            try
+            {
+                Char[] array = str.ToCharArray();
+                Int32 count = 0;
+                for (Int32 i = 1, j = 0; i < str.Length; i++, j++)
+                {
+                    if (array[i] == array[j])
+                    {
+                        count++;
+                    }
+                }
+            }
+            catch (Exception)
+            {
+                throw;
+            }
+        }
+    }
     public class Program
     {
         public static void Main(string[] args)
