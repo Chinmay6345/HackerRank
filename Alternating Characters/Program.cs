@@ -89,12 +89,10 @@ public class Program
     }
     public static void UsingLoop(String str)
     {
-        char[] array = str.ToCharArray();
-
-        int count = 0;
-        for (int i = 1, j = 0; i < str.Length; i++, j++)
+        Char[] array = str.ToCharArray();
+        Int32 count = 0;
+        for (Int32 i = 1, j = 0; i < str.Length; i++, j++)
         {
-
             if (array[i] == array[j])
             {
                 count++;
@@ -108,8 +106,20 @@ namespace Alternating_Characters
     {
         public static void Main(string[] args)
         {
-            
-            Console.ReadLine();
+            try
+            {
+                Int32 NoOfTestCases = Convert.ToInt32(Console.ReadLine());
+                while (NoOfTestCases != 0)
+                {
+                    String str = Console.ReadLine();
+                    AppHelper.AlternatingCharacters(str);
+                    NoOfTestCases = NoOfTestCases - 1;
+                }
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine(ex.InnerException.ToString());
+            }
         }
     }
 }
