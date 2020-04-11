@@ -52,11 +52,11 @@ namespace Reverse_Linked_List
             }
             return head;
         }
-        public void ReverseUsingPointers()
+        public void ReverseUsingPointers(ListNode head)
         {
-            Node p = head;
-            Node q = null;
-            Node r = null;
+            ListNode p = head;
+            ListNode q = null;
+            ListNode r = null;
             while(p!=null)
             {
                 r = q;
