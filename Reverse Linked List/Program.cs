@@ -1,10 +1,6 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.IO;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
+//https://www.hackerrank.com/challenges/reverse-a-linked-list/problem?h_r=internal-search
 namespace Reverse_Linked_List
 {
     // Complete the reverse function below.
