@@ -39,6 +39,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Matrices 2D arrays", "Matri
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Diagonal Difference", "Diagonal Difference\Diagonal Difference.csproj", "{C408C468-8146-41EF-A9B8-02D6C7A66603}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Linked List", "Linked List", "{7BC268F6-6C3D-4AD2-BCD0-3DBA7E0DFFE2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Reverse Linked List", "Reverse Linked List\Reverse Linked List.csproj", "{DCD5F327-4C27-46FA-8290-FE21D35AF4C9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -105,6 +109,10 @@ Global
 		{C408C468-8146-41EF-A9B8-02D6C7A66603}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C408C468-8146-41EF-A9B8-02D6C7A66603}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C408C468-8146-41EF-A9B8-02D6C7A66603}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DCD5F327-4C27-46FA-8290-FE21D35AF4C9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DCD5F327-4C27-46FA-8290-FE21D35AF4C9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DCD5F327-4C27-46FA-8290-FE21D35AF4C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DCD5F327-4C27-46FA-8290-FE21D35AF4C9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -114,6 +122,8 @@ Global
 		{C6799E22-62A5-4A41-8C4C-D261269FF3B4} = {00213F69-B67B-45C4-ABA4-DDA42DD4377F}
 		{F3F2C94F-B384-4187-A66C-188349C582D8} = {732FDA50-6D62-48C9-8054-3DE03F0BDD92}
 		{C408C468-8146-41EF-A9B8-02D6C7A66603} = {F3F2C94F-B384-4187-A66C-188349C582D8}
+		{7BC268F6-6C3D-4AD2-BCD0-3DBA7E0DFFE2} = {732FDA50-6D62-48C9-8054-3DE03F0BDD92}
+		{DCD5F327-4C27-46FA-8290-FE21D35AF4C9} = {7BC268F6-6C3D-4AD2-BCD0-3DBA7E0DFFE2}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {3A4C5433-A351-4CE4-A077-FB10625BC114}
