@@ -128,7 +128,6 @@ namespace Sherlock_and_the_Valid_String
                         }
                         else
                         {
-                            IsValid = false;
                             Console.WriteLine("NO");
                             break;
                         }
