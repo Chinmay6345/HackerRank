@@ -47,6 +47,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Strings", "Strings", "{BE8D
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sherlock and the Valid String", "Sherlock and the Valid String\Sherlock and the Valid String.csproj", "{F9CBFFB2-119E-4185-83ED-67D6DEE7813C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cats and Mouse", "Cats and Mouse\Cats and Mouse.csproj", "{0A4EED1A-2A8C-4980-8839-A9879A7C4705}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -121,6 +123,10 @@ Global
 		{F9CBFFB2-119E-4185-83ED-67D6DEE7813C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F9CBFFB2-119E-4185-83ED-67D6DEE7813C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F9CBFFB2-119E-4185-83ED-67D6DEE7813C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0A4EED1A-2A8C-4980-8839-A9879A7C4705}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0A4EED1A-2A8C-4980-8839-A9879A7C4705}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0A4EED1A-2A8C-4980-8839-A9879A7C4705}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0A4EED1A-2A8C-4980-8839-A9879A7C4705}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
