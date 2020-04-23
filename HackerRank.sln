@@ -51,6 +51,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cats and Mouse", "Cats and 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Reverse Doubly Linked List", "Reverse Doubly Linked List\Reverse Doubly Linked List.csproj", "{3D4F6B7F-7686-48D1-ACAD-EA86FE791048}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Delete Node from LinkedList(Singly)", "Delete Node from LinkedList(Singly)\Delete Node from LinkedList(Singly).csproj", "{4DC46123-DB8B-4617-B9BD-B491E844DD8E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -133,6 +135,10 @@ Global
 		{3D4F6B7F-7686-48D1-ACAD-EA86FE791048}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3D4F6B7F-7686-48D1-ACAD-EA86FE791048}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3D4F6B7F-7686-48D1-ACAD-EA86FE791048}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4DC46123-DB8B-4617-B9BD-B491E844DD8E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4DC46123-DB8B-4617-B9BD-B491E844DD8E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4DC46123-DB8B-4617-B9BD-B491E844DD8E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4DC46123-DB8B-4617-B9BD-B491E844DD8E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -147,6 +153,7 @@ Global
 		{BE8D9300-973F-4050-8E23-6E7A8CB09DE3} = {732FDA50-6D62-48C9-8054-3DE03F0BDD92}
 		{F9CBFFB2-119E-4185-83ED-67D6DEE7813C} = {BE8D9300-973F-4050-8E23-6E7A8CB09DE3}
 		{3D4F6B7F-7686-48D1-ACAD-EA86FE791048} = {7BC268F6-6C3D-4AD2-BCD0-3DBA7E0DFFE2}
+		{4DC46123-DB8B-4617-B9BD-B491E844DD8E} = {7BC268F6-6C3D-4AD2-BCD0-3DBA7E0DFFE2}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {3A4C5433-A351-4CE4-A077-FB10625BC114}
