@@ -63,6 +63,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Insert Node at specified po
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Insert node at head of Singly Linked List", "Insert node at head of Singly Linked List\Insert node at head of Singly Linked List.csproj", "{CC6847A0-F3AA-4517-A2C6-11E604AE1959}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Arrays", "Arrays", "{329CC4F1-23B0-4B57-A388-5F90BDFFF8DF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "The hurdle race", "The hurdle race\The hurdle race.csproj", "{A251F484-9634-42FC-B08B-889C59AAD77B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -169,6 +173,10 @@ Global
 		{CC6847A0-F3AA-4517-A2C6-11E604AE1959}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CC6847A0-F3AA-4517-A2C6-11E604AE1959}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CC6847A0-F3AA-4517-A2C6-11E604AE1959}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A251F484-9634-42FC-B08B-889C59AAD77B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A251F484-9634-42FC-B08B-889C59AAD77B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A251F484-9634-42FC-B08B-889C59AAD77B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A251F484-9634-42FC-B08B-889C59AAD77B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -189,6 +197,8 @@ Global
 		{DF78D1C5-6C88-487B-AAA2-87B286D388E3} = {7BC268F6-6C3D-4AD2-BCD0-3DBA7E0DFFE2}
 		{85685FB8-E85C-4E9C-B848-EBCFFD128B5D} = {7BC268F6-6C3D-4AD2-BCD0-3DBA7E0DFFE2}
 		{CC6847A0-F3AA-4517-A2C6-11E604AE1959} = {7BC268F6-6C3D-4AD2-BCD0-3DBA7E0DFFE2}
+		{329CC4F1-23B0-4B57-A388-5F90BDFFF8DF} = {732FDA50-6D62-48C9-8054-3DE03F0BDD92}
+		{A251F484-9634-42FC-B08B-889C59AAD77B} = {329CC4F1-23B0-4B57-A388-5F90BDFFF8DF}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {3A4C5433-A351-4CE4-A077-FB10625BC114}
