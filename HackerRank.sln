@@ -69,6 +69,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "The hurdle race", "The hurd
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kangaroos", "Kangaroos\Kangaroos.csproj", "{132F13CF-323C-43C0-93C5-F0135F857C3E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Apples and Oranges", "Apples and Oranges\Apples and Oranges.csproj", "{934EC00E-B1C8-40CD-98FA-817F0201BEFB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -183,6 +185,10 @@ Global
 		{132F13CF-323C-43C0-93C5-F0135F857C3E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{132F13CF-323C-43C0-93C5-F0135F857C3E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{132F13CF-323C-43C0-93C5-F0135F857C3E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{934EC00E-B1C8-40CD-98FA-817F0201BEFB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{934EC00E-B1C8-40CD-98FA-817F0201BEFB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{934EC00E-B1C8-40CD-98FA-817F0201BEFB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{934EC00E-B1C8-40CD-98FA-817F0201BEFB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
