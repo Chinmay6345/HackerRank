@@ -73,6 +73,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Apples and Oranges", "Apple
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Breaking Records", "Breaking Records\Breaking Records.csproj", "{59CB0521-875B-4B17-AA71-5BD72A69926F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Divisible Pairs", "Divisible Pairs\Divisible Pairs.csproj", "{395D75EB-068F-4C87-B722-2E05C4A1036F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -195,6 +197,10 @@ Global
 		{59CB0521-875B-4B17-AA71-5BD72A69926F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{59CB0521-875B-4B17-AA71-5BD72A69926F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{59CB0521-875B-4B17-AA71-5BD72A69926F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{395D75EB-068F-4C87-B722-2E05C4A1036F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{395D75EB-068F-4C87-B722-2E05C4A1036F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{395D75EB-068F-4C87-B722-2E05C4A1036F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{395D75EB-068F-4C87-B722-2E05C4A1036F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
