@@ -7,7 +7,7 @@ namespace Divisible_Pairs
 {
     public static class AppHelper
     {
-        public static void Pairs(Int32 k, Int32[] arr)
+        public static void Pairs(Int32 k,Int32[] arr)
         {
             try
             {
