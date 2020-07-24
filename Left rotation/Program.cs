@@ -34,6 +34,23 @@ namespace Left_rotation
             }
             Console.WriteLine(String.Join(" ", arr.Select(g => g)));
         }
+        public static void LRotate(Int32 [] arr,Int32 d)
+        {
+            Int32 n = arr.Length;
+            Int32[] temp = new int[d];
+            for(Int32 i=0;i<d;i++)
+            {
+                temp[i] = arr[i];
+            }
+            for(Int32 j=d;j<n;j++)
+            {
+                arr[j - d] = arr[j];
+            }
+            for(Int32 k=0;k<d;k++)
+            {
+                arr[n - d + k] = temp[k];
+            }
+        }
     }
 
 
